@@ -55,16 +55,16 @@ toX =
   Dom.Scroll.toX
 
 
-{-| Alias for [`Dom.Scroll.x`](http://package.elm-lang.org/packages/elm-lang/dom/latest/Dom-Scroll#x) in *elm-lang/dom*
+{-| Alias for [`Dom.Scroll.y`](http://package.elm-lang.org/packages/elm-lang/dom/latest/Dom-Scroll#y) in *elm-lang/dom*
 -}
 getY : String -> Task Effect.Error Float
 getY =
-  Dom.Scroll.x
+  Dom.Scroll.y
 
 
 
-{-| Alias for [`Dom.Scroll.y`](http://package.elm-lang.org/packages/elm-lang/dom/latest/Dom-Scroll#y) in *elm-lang/dom*
+{-| Alias for [`Dom.Scroll.x`](http://package.elm-lang.org/packages/elm-lang/dom/latest/Dom-Scroll#x) in *elm-lang/dom*
 -}
 getX : String -> Task Effect.Error Float
 getX =
-  Dom.Scroll.y
+  Dom.Scroll.x
