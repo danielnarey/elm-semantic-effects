@@ -1,3 +1,6 @@
+# Not updated for Elm 0.19
+
+---
 
 # elm-semantic-effects: Make things happen on the user side of a web application
 
